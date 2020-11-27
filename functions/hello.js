@@ -9,6 +9,6 @@ exports.handler = function(event, context, callback) {
   console.log(params)
   callback(null, {
     statusCode: 200,
-    body: "Hello, Tom Turbo " + params.test + " " + +params.first + +params.second
+    body: "Hello, Tom Turbo " + params.test + " " + parseInt(params.first) + parseInt(params.second)
   });
 };
