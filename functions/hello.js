@@ -3,6 +3,6 @@
 exports.handler = function(event, context, callback) {
   callback(null, {
     statusCode: 200,
-    body: "Hello, Tom Turbo " + arguments[0]
+    body: "Hello, Tom Turbo " + arguments
   });
 };
