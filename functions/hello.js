@@ -1,10 +1,10 @@
 
 
 exports.handler = function(event, context, callback) {
-  const queryString = window.location.search;
-  console.log(queryString);
+
+  console.log(event);
   callback(null, {
     statusCode: 200,
-    body: "Hello, Tom Turbo " + queryString
+    body: "Hello, Tom Turbo " + event
   });
 };
