@@ -1,6 +1,7 @@
 
 
 exports.handler = function(event, context, callback) {
+  console.log(event.queryStringParameters)
   params = JSON.parse(event.queryStringParameters)
   console.log(params)
   callback(null, {
