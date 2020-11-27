@@ -2,9 +2,9 @@
 
 exports.handler = function(event, context, callback) {
 
-  console.log(event.headers);
+  console.log(event);
   console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-  console.log(event.request);
+  console.log(event.test);
   console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
   console.log(event.url);
   console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
